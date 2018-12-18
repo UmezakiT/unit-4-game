@@ -1,0 +1,21 @@
+.bodyBlack{
+  background-color:Black;
+}
+
+.container{
+  background-color:white;
+}
+
+.crysImages{
+  height:100px;
+  width:100px;
+}
+
+.rowStyles{
+  margin-bottom:20px;
+}
+
+.winLoss{
+  margin-top: 20px;
+  padding: 0 auto;
+}
