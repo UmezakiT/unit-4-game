@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Count the Crystals</title>
 </head>
+
 <body class="bodyBlack">
   <div class="container" >
     <h1>Crystal Collector</h1>
@@ -22,10 +23,10 @@
 
     <!-- First Row -->
     <div class="row rowStyles">
-      <div class="col-3">
+      <div class="col-3" id="startButton">
         <button type="gameStart">Start Game</button>
       </div>
-      <div class="col-3">
+      <div class="col-3" id="unitRandom">
           Units = 
       </div>
       <div class="col-3">
@@ -37,25 +38,25 @@
     <!-- Second Row -->
     <div class="row">
       <div class = "col-sm-3">
-        <button >
+        <button type="azur">
           <img src="assets/images/Azurite.jpg" alt="Azurite" value="" class="crysImages">
         </button>
       </div>
 
       <div class ="col-sm-3">
-        <button>
+        <button type="cel">
           <img src="assets/images/Celestite.jpg" alt="Celestite" value="" class="crysImages"> 
         </button>
       </div>
 
       <div class = "col-sm-3">
-        <button>
+        <button type="diop">
           <img src="assets/images/Dioptase.jpg" alt="Dioptase" value="" class="crysImages">
         </button>
       </div>
 
       <div class="col-sm-3">
-        <button>
+        <button type="hal">
           <img src="assets/images/Halite.jpg" alt="Halite" value="" class="crysImages">
         </button>
       </div>
@@ -63,10 +64,10 @@
     </div>
 
     <div class="row winLoss">
-      <div class="col-sm-6">
+      <div class="col-sm-6" id="wins">
         Wins:
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6" id="loss">
         Losses:
       </div>
     </div>
@@ -80,5 +81,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<script src="assets/javascript/game.js"></script>
 </body>
 </html>
